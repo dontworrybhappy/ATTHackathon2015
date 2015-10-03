@@ -15,6 +15,9 @@
 		525A23081BBF8E8E00B29A32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525A23061BBF8E8E00B29A32 /* LaunchScreen.storyboard */; };
 		525A23131BBF8E8E00B29A32 /* DiabetesAppHackathonATTTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 525A23121BBF8E8E00B29A32 /* DiabetesAppHackathonATTTests.m */; };
 		525A231E1BBF8E8E00B29A32 /* DiabetesAppHackathonATTUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 525A231D1BBF8E8E00B29A32 /* DiabetesAppHackathonATTUITests.m */; };
+		525A23861BC044BF00B29A32 /* JSONHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 525A23851BC044BF00B29A32 /* JSONHelpers.m */; settings = {ASSET_TAGS = (); }; };
+		525A23891BC044CA00B29A32 /* URLHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 525A23881BC044CA00B29A32 /* URLHelpers.m */; settings = {ASSET_TAGS = (); }; };
+		525A238B1BC0484000B29A32 /* DLDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 525A238A1BC0484000B29A32 /* DLDevice.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		525A23191BBF8E8E00B29A32 /* DiabetesAppHackathonATTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiabetesAppHackathonATTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		525A231D1BBF8E8E00B29A32 /* DiabetesAppHackathonATTUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiabetesAppHackathonATTUITests.m; sourceTree = "<group>"; };
 		525A231F1BBF8E8E00B29A32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525A23841BC044A700B29A32 /* JSONHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JSONHelpers.h; path = "../../../../Downloads/2015 Hackathon Penguin iOS Sample App/iOS/PenguinSample/PenguinSample/Helpers/JSONHelpers.h"; sourceTree = "<group>"; };
+		525A23851BC044BF00B29A32 /* JSONHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JSONHelpers.m; path = "../../../../Downloads/2015 Hackathon Penguin iOS Sample App/iOS/PenguinSample/PenguinSample/Helpers/JSONHelpers.m"; sourceTree = "<group>"; };
+		525A23871BC044CA00B29A32 /* URLHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = URLHelpers.h; path = "../../../../Downloads/2015 Hackathon Penguin iOS Sample App/iOS/PenguinSample/PenguinSample/Helpers/URLHelpers.h"; sourceTree = "<group>"; };
+		525A23881BC044CA00B29A32 /* URLHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = URLHelpers.m; path = "../../../../Downloads/2015 Hackathon Penguin iOS Sample App/iOS/PenguinSample/PenguinSample/Helpers/URLHelpers.m"; sourceTree = "<group>"; };
+		525A238A1BC0484000B29A32 /* DLDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DLDevice.m; path = "../../../../Downloads/2015 Hackathon Penguin iOS Sample App/iOS/PenguinSample/PenguinSample/DigitalLifeClasses/DLDevice.m"; sourceTree = "<group>"; };
+		525A238C1BC0484400B29A32 /* DLDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DLDevice.h; path = "../../../../Downloads/2015 Hackathon Penguin iOS Sample App/iOS/PenguinSample/PenguinSample/DigitalLifeClasses/DLDevice.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +110,16 @@
 		525A22F71BBF8E8D00B29A32 /* DiabetesAppHackathonATT */ = {
 			isa = PBXGroup;
 			children = (
+				525A23871BC044CA00B29A32 /* URLHelpers.h */,
+				525A23881BC044CA00B29A32 /* URLHelpers.m */,
+				525A23851BC044BF00B29A32 /* JSONHelpers.m */,
 				525A22FB1BBF8E8D00B29A32 /* AppDelegate.h */,
+				525A23841BC044A700B29A32 /* JSONHelpers.h */,
 				525A22FC1BBF8E8E00B29A32 /* AppDelegate.m */,
 				525A22FE1BBF8E8E00B29A32 /* ViewController.h */,
 				525A22FF1BBF8E8E00B29A32 /* ViewController.m */,
+				525A238C1BC0484400B29A32 /* DLDevice.h */,
+				525A238A1BC0484000B29A32 /* DLDevice.m */,
 				525A23011BBF8E8E00B29A32 /* Main.storyboard */,
 				525A23041BBF8E8E00B29A32 /* Assets.xcassets */,
 				525A23061BBF8E8E00B29A32 /* LaunchScreen.storyboard */,
@@ -271,8 +286,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				525A23001BBF8E8E00B29A32 /* ViewController.m in Sources */,
+				525A23861BC044BF00B29A32 /* JSONHelpers.m in Sources */,
 				525A22FD1BBF8E8E00B29A32 /* AppDelegate.m in Sources */,
 				525A22FA1BBF8E8D00B29A32 /* main.m in Sources */,
+				525A23891BC044CA00B29A32 /* URLHelpers.m in Sources */,
+				525A238B1BC0484000B29A32 /* DLDevice.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +432,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DiabetesAppHackathonATT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Emily.DiabetesAppHackathonATT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +444,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DiabetesAppHackathonATT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Emily.DiabetesAppHackathonATT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +518,7 @@
 				525A23241BBF8E8E00B29A32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		525A23251BBF8E8E00B29A32 /* Build configuration list for PBXNativeTarget "DiabetesAppHackathonATTTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +527,7 @@
 				525A23271BBF8E8E00B29A32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		525A23281BBF8E8E00B29A32 /* Build configuration list for PBXNativeTarget "DiabetesAppHackathonATTUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +536,7 @@
 				525A232A1BBF8E8E00B29A32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
