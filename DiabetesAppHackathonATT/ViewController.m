@@ -28,7 +28,7 @@
 @end
 
 @implementation ViewController
-NSString *const baseURL = @"http://systest.digitallife.att.com/penguin/api";
+NSString *const baseURL = @"http://systest.digitallife.att.com/penguin/api/";
 NSString *const kAppID = @"NE_92666F094F1786C1_1";
 
 - (void)viewDidLoad {
@@ -55,25 +55,28 @@ NSString *const kAppID = @"NE_92666F094F1786C1_1";
             // convert each json device entry to a DLDevice object
             NSArray *jsonDeviceList = content;
             NSMutableArray *deviceList = [[NSMutableArray alloc] init];
-            for (NSDictionary *deviceDict in jsonDeviceList) {
-                //            NSA *type = ;
-                //            NSLog(type);
-//                if ([deviceDict[@"deviceType"] isEqual: @"door-lock"]) {
-//                    for (_label in _attributes) {
-//                        if ([_label isEqual: @"lock"]) {
-//                            _value = @"lock";
-//                        }
-//                    }
-//                }
+            for (NSDictionary *deviceDict in jsonDeviceList){
+                if ([deviceDict[@"deviceType"] isEqual: @"door-lock"] ) {
+                    if ([deviceDict[@"attributes"][3][@"value"]  isEqual: @"lock"]) {
+                        NSString *endpoint = [NSString stringWithFormat:@"devices/DL00000004/lock/unlock"];
+                    [self performHTTPRequestWithEndpoint:endpoint params:nil httpMethod:@"POST" completionHandler:^(BOOL success, id content) {
+                        NSLog(@"success - door unlocked");
+                    }];
+                    }
+                }
+                if ([deviceDict[@"deviceType"] isEqual: @"digital-life-system"] ) {
+                    NSLog(@"found");
+                    if ([deviceDict[@"attributes"][1][@"value"]  isEqual: @"null"]) {
+                        NSString *endpoint = [NSString stringWithFormat:@"devices/AM00000004/command/MedicalLocal!User=553474449[Desktop Web:1443924496237]!"];
+                        [self performHTTPRequestWithEndpoint:endpoint params:nil httpMethod:@"POST" completionHandler:^(BOOL success, id content) {
+                            NSLog(@"success - alarm beeps");
+                        }];
+                    }
+                }
             }
             
-        }];
-    
-    
+            }];
     }];
- 
-    
-    
     
 }
 
@@ -156,4 +159,4 @@ NSString *const kAppID = @"NE_92666F094F1786C1_1";
     }];
 }
 
-@end
+     @end

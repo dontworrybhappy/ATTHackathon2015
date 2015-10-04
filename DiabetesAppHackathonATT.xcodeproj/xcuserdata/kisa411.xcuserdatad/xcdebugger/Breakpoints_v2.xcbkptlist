@@ -9,38 +9,6 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "DiabetesAppHackathonATT/ViewController.m"
-            timestampString = "465603533.165335"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "116"
-            endingLineNumber = "116"
-            landmarkName = "-authenticateWithUsername:password:completion:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DiabetesAppHackathonATT/ViewController.m"
-            timestampString = "465599728.332244"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
-            landmarkName = "-SOS:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "../../../Downloads/2015 Hackathon Penguin iOS Sample App/iOS/PenguinSample/PenguinSample/Helpers/URLHelpers.m"
             timestampString = "465592618.106853"
             startingColumnNumber = "9223372036854775807"
@@ -54,65 +22,17 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DiabetesAppHackathonATT/ViewController.m"
-            timestampString = "465603533.165335"
+            timestampString = "465621918.545722"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "136"
-            endingLineNumber = "136"
-            landmarkName = "-performHTTPRequestWithEndpoint:params:httpMethod:completionHandler:"
+            startingLineNumber = "103"
+            endingLineNumber = "103"
+            landmarkName = "-authenticateWithUsername:password:completion:"
             landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DiabetesAppHackathonATT/ViewController.m"
-            timestampString = "465603533.165335"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "147"
-            endingLineNumber = "147"
-            landmarkName = "-performHTTPRequestWithEndpoint:params:httpMethod:completionHandler:"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[ViewController performHTTPRequestWithEndpoint:params:httpMethod:completionHandler:]"
-                  moduleName = "DiabetesAppHackathonATT"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kisa411/Dropbox/CSE/DiabetesAppHackathonATT/DiabetesAppHackathonATT/ViewController.m"
-                  timestampString = "465603534.341777"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "147"
-                  endingLineNumber = "147"
-                  offsetFromSymbolStart = "1481">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__85-[ViewController performHTTPRequestWithEndpoint:params:httpMethod:completionHandler:]_block_invoke"
-                  moduleName = "DiabetesAppHackathonATT"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kisa411/Dropbox/CSE/DiabetesAppHackathonATT/DiabetesAppHackathonATT/ViewController.m"
-                  timestampString = "465603534.342041"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "147"
-                  endingLineNumber = "147"
-                  offsetFromSymbolStart = "98">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -122,45 +42,13 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DiabetesAppHackathonATT/ViewController.m"
-            timestampString = "465599728.332244"
+            timestampString = "465619485.536156"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "83"
-            endingLineNumber = "83"
-            landmarkName = "-authenticateWithUsername:password:completion:"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "-SOS:"
             landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[ViewController authenticateWithUsername:password:completion:]"
-                  moduleName = "DiabetesAppHackathonATT"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kisa411/Dropbox/CSE/DiabetesAppHackathonATT/DiabetesAppHackathonATT/ViewController.m"
-                  timestampString = "465597903.034972"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "79"
-                  endingLineNumber = "79"
-                  offsetFromSymbolStart = "133">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[ViewController authenticateWithUsername:password:completion:]"
-                  moduleName = "DiabetesAppHackathonATT"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kisa411/Dropbox/CSE/DiabetesAppHackathonATT/DiabetesAppHackathonATT/ViewController.m"
-                  timestampString = "465597903.035394"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "79"
-                  endingLineNumber = "79"
-                  offsetFromSymbolStart = "154">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -170,109 +58,77 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DiabetesAppHackathonATT/ViewController.m"
-            timestampString = "465603533.165335"
+            timestampString = "465621773.639478"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "120"
-            endingLineNumber = "120"
-            landmarkName = "-authenticateWithUsername:password:completion:"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "-SOS:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "DiabetesAppHackathonATT/ViewController.m"
-            timestampString = "465599728.332244"
+            timestampString = "465621918.545722"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "-SOS:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DiabetesAppHackathonATT/ViewController.m"
+            timestampString = "465621918.545722"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
             landmarkName = "-SOS:"
             landmarkType = "5">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__22-[ViewController SOS:]_block_invoke"
-                  moduleName = "DiabetesAppHackathonATT"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/kisa411/Dropbox/CSE/DiabetesAppHackathonATT/DiabetesAppHackathonATT/ViewController.m"
-                  timestampString = "465603534.343685"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "52"
-                  endingLineNumber = "52"
-                  offsetFromSymbolStart = "73">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "__22-[ViewController SOS:]_block_invoke_2"
                   moduleName = "DiabetesAppHackathonATT"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/kisa411/Dropbox/CSE/DiabetesAppHackathonATT/DiabetesAppHackathonATT/ViewController.m"
-                  timestampString = "465603534.343936"
+                  timestampString = "465621629.436396"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "52"
-                  endingLineNumber = "52"
-                  offsetFromSymbolStart = "79">
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "1648">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_"
+                  moduleName = "DiabetesAppHackathonATT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kisa411/Dropbox/CSE/DiabetesAppHackathonATT/DiabetesAppHackathonATT/ViewController.m"
+                  timestampString = "465621629.436972"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
                </Location>
             </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DiabetesAppHackathonATT/ViewController.m"
-            timestampString = "465603533.165335"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "105"
-            endingLineNumber = "105"
-            landmarkName = "-authenticateWithUsername:password:completion:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DiabetesAppHackathonATT/ViewController.m"
-            timestampString = "465599728.332244"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
-            landmarkName = "-SOS:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "DiabetesAppHackathonATT/ViewController.m"
-            timestampString = "465603533.165335"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "112"
-            endingLineNumber = "112"
-            landmarkName = "-authenticateWithUsername:password:completion:"
-            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
